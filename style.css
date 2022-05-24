@@ -1,0 +1,102 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(8, 8, 43);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.score-board {
+    border: 3px solid white;
+    border-radius: 5px;
+    color: white;
+    width: 200px;
+    margin: 20px auto;
+    font-size: 46px;
+    text-align: center;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.badge {
+    background-color: #e2584d;
+    font-size: 14px;
+    padding: 2px 14px;
+}
+
+#user-label {
+    position: absolute;
+    top: 30px;
+    left: -30px;
+}
+
+#comp-label {
+    position: absolute;
+    top: 30px;
+    right: -30px;
+}
+
+.result {
+    font-size: 40px;
+    color: white;
+}
+
+.result p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.choices {
+    font-size: 50px;
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.choice {
+    display: inline-block;
+    border: 4px solid white;
+    margin: 0px 20px;
+    padding: 20px 32px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.choice:last-child {
+    padding: 20px 25px;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background-color: #e2584d;
+}
+
+#action-message {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.green-glow {
+    border: 4px solid #4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+}
+
+.red-glow {
+    border: 4px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+}
+
+.gray-glow {
+    border: 4px solid #464647;
+    box-shadow: 0 0 10px #25292b;
+}
